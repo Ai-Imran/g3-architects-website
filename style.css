@@ -1,0 +1,187 @@
+
+/* universal selectorr */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ======
+  Body styles
+  ======= */
+  body{
+    width: 1355px;
+    height: 4760px;
+    border: 2px solid red;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  /* ======
+    header styles
+    ======== */
+    .main-header{
+        width: 1355px;
+        height: 1322px;
+        background: rgba(255, 144, 14, 0.10);
+        position: relative;
+    }
+
+    /* navigation */
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        
+        left: 130px;
+        right: 130px;
+        
+    }
+    .gthree{
+        color: #131313;
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .nav-link{
+        margin-top: 63px;
+    }
+    .nav-link > span{
+        font-size: 18px;
+        margin-left: 20px;
+        color: #424242;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .brand-new{
+        position: absolute;
+        top: 205px;
+        right: 429px;
+        left: 429px;
+        text-align: center;
+    }
+    .brand-h2{
+        margin-bottom: 20px;
+        font-size: 50px;
+        font-weight: 700;
+        color: #131313;
+    }
+    .brand-text{
+        color: #727272;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .exp-btn{
+        position: absolute;
+        top: 464px;
+        left: 620px;
+        border-radius: 8px;
+        background: #FF900E;
+        padding: 15px;
+        color: #fff;
+        font-weight: 600;
+
+    }
+    .banner{
+        position: absolute;
+       
+        top: 577px;
+        left: 130px;
+        right: 130px;
+        bottom: 45px;
+        text-align: center;
+    }
+    .banner img{
+        width: 100%;
+        height: 700px;
+    }
+
+    /* img and quick */
+    .img-quick{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* justify-items: center; */
+        margin-left: 160px;
+        margin-right: 200px;
+        column-gap: 76px;
+        
+    }
+
+    .four-img{
+        margin-top: 85px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .quick-child{
+        margin-top: 300px;
+    }
+    .qtxt{
+        color: #727272;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .of-our{
+        color: 131313;
+        font-weight: 700;
+     
+    }
+    .features{
+        color: #FF900E;
+        font-weight: 700;
+        margin-bottom: 27px;
+    }
+    .lorem{
+        color: #727272;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .btn2{
+        margin-top: 32px;
+        border-radius: 8px;
+        background: #FF900E;
+        padding: 10px;
+        color: #fff;
+        font-weight: 600;
+        display: inline-flex;
+        font-size: 12px;
+
+    }
+
+    /* =====
+      skill - girl
+      ========== */
+      .skill-girl{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        column-gap: 100px;
+        margin-top: 100px;
+        justify-content: space-between;
+      }
+      .nam-lorem{
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+      }
+      .fea{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 24px;
+      }
+
+      .box{
+        width: 350px;
+        border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 39px;
+
+      }
+
+
+     
